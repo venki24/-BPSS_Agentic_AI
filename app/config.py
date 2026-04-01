@@ -13,10 +13,10 @@ class Settings(BaseSettings):
     )
 
     # ── Azure OpenAI (Chat)
-    AZURE_OPENAI_ENDPOINT: str = "https://central-prod-translation.openai.azure.com/"
+    AZURE_OPENAI_ENDPOINT: str = ""
     AZURE_OPENAI_API_KEY: str = ""
-    AZURE_OPENAI_DEPLOYMENT: str = "central-prod-translation-model"
-    AZURE_OPENAI_API_VERSION: str = "2024-08-01-preview"
+    AZURE_OPENAI_DEPLOYMENT: str = ""
+    AZURE_OPENAI_API_VERSION: str = ""
 
     # ── Embeddings 
     EMBEDDING_PROVIDER: str = "huggingface"  # "azure" | "huggingface"
